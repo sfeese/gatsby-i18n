@@ -9,9 +9,9 @@ const SecondPage = () => (
   <Translation>
     {t => (
       <Layout>
-        <h1>{t('Hi from the second page')}</h1>
-        <p>{t('Welcome to page 2')}</p>
-        <Link to="/">{t('Go back to the homepage')}</Link>
+        <h1>{t('pages.page-2.title')}</h1>
+        <p>{t('pages.page-2.p1')}</p>
+        <Link to="/">{t('common.goToHome')}</Link>
       </Layout>
     )}
   </Translation>
