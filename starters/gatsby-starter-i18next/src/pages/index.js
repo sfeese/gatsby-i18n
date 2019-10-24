@@ -9,10 +9,10 @@ const IndexPage = () => (
   <Translation>
     {t => (
       <Layout>
-        <h1>{t('Hi people')}</h1>
-        <p>{t('Welcome to your new Gatsby site.')}</p>
-        <p>{t('Now go build something great.')}</p>
-        <Link to="/page-2/">{t('Go to page 2')}</Link>
+        <h1>{t('pages.index.title')}</h1>
+        <p>{t('pages.index.p1')}</p>
+        <p>{t('pages.index.p2')}</p>
+        <Link to="/page-2/">{t('common.goToPage', { page: 2 })}</Link>
       </Layout>
     )}
   </Translation>
